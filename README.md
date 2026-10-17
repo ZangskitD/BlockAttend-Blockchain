@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # BlockAttend — Blockchain-Based Attendance
 
 A React + Vite frontend with Solidity smart contracts on Hardhat. The blockchain is the source of truth; there is no MySQL, MongoDB, Firebase, or other traditional database.
@@ -115,3 +116,7 @@ Use the deployed contract address from `src/contract-address.json`. Exit the con
 
 npm test
 
+=======
+# BlockAttend-Blockchain
+A blockchain-based attendance management system built using Solidity, Hardhat, React, and MetaMask. Enables faculty to manage courses, QR-based attendance, student enrollment, and exam eligibility with on-chain records.
+>>>>>>> c6ff124825845fdd13f6c62606f2eaa7bc59eb28
