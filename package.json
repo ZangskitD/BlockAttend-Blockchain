@@ -1,0 +1,30 @@
+{
+  "name": "blockattend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "chain": "hardhat node",
+    "compile": "hardhat compile",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "test": "hardhat test"
+  },
+  "dependencies": {
+    "ethers": "^6.13.5",
+    "html5-qrcode": "^2.3.8",
+    "lucide-react": "^0.468.0",
+    "qrcode": "^1.5.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.1"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "hardhat": "^2.22.17",
+    "prettier": "^3.9.10",
+    "vite": "^6.0.5"
+  }
+}
